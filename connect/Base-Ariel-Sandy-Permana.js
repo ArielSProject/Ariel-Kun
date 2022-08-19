@@ -1855,7 +1855,7 @@ case 'emojimix': {
 		if (!emoji2) throw `Example : ${prefix + command} 😅+🤔`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 		for (let res of anu.results) {
-		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftroli, { packname: global.botname, author: global.packname, categories: res.tags })
+		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftroli, { packname: global.botname, author: global.packname categories: res.tags })
 		    await fs.unlinkSync(encmedia)
 		}
 	    }
@@ -1864,7 +1864,7 @@ case 'emojimix': {
 	    if (!text) throw `Example : ${prefix + command} 😅`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
 		for (let res of anu.results) {
-		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftok, { packname: global.botname, author: global.packname, categories: res.tags })
+		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftok, { packname: global.botname, author: global.packname categories: res.tags })
 		    await fs.unlinkSync(encmedia)
 		}
 	    }
@@ -1879,7 +1879,7 @@ case 'patrick': {
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/patrik')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftroli, { packname: global.botname, author: global.packname, })
+encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftroli, { packname: global.botname, author: global.packname })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -1896,7 +1896,7 @@ case 'gurastick':{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/gura')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftok, { packname: global.botname, author: global.packname, })
+encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftok, { packname: global.botname, author: global.packname })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -1905,7 +1905,7 @@ case 'dogestick':{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/anjing')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftok, { packname: global.botname, author: global.packname, })
+encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftok, { packname: global.botname, author: global.packname })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -1914,7 +1914,7 @@ case 'bucin' :{
 var ano = await fetchJson('https://raw.githubusercontent.com/rashidsiregar28/data/main/bucin')
 var wifegerak = ano.split('\n')
 var wifegerakx = wifegerak[Math.floor(Math.random() * wifegerak.length)]
-encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftok, { packname: global.botname, author: global.packname, })
+encmedia = await arielspkece.sendImageAsSticker(m.chat, wifegerakx, ftok, { packname: global.botname, author: global.packname })
 await fs.unlinkSync(encmedia)
 }
 break
@@ -1944,7 +1944,7 @@ break
 case 'ping': case 'speed': case 'tes':
 let timestamp = speed()
 let latensi = speed() - timestamp
-m.reply(`*Status Bot Online*\nSpeed : ${latensi.toFixed(4)} _Second_`)
+m.reply(`*Status Bot Online*\nSpeed : ${latensi.toFixed(4)} _Second_\n\n*Runtime : ${runtime(process.uptime())}*`)
 break
 case 'runtime':
 m.reply(`*Runtime : ${runtime(process.uptime())}*`)
