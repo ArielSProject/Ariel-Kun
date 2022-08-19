@@ -59,6 +59,12 @@ return `✘ *I N F O - B O T*
 ⌕ happymod
 ⌕ quotes
 ⌕ gombalan
+⌕ doge
+⌕ gura
+⌕ bucin
+⌕ patrik
+⌕ attp
+⌕ terjemahan
 
 ✘ *C O N V E R T - M E N U*
 
@@ -72,12 +78,6 @@ return `✘ *I N F O - B O T*
 ⌕ stickermeme
 ⌕ emojimix
 ⌕ emojimix2
-⌕ doge
-⌕ gura
-⌕ bucin
-⌕ patrik
-⌕ attp
-⌕ terjemahan
 
 ✘ *N U L I S - M E N U*
 
