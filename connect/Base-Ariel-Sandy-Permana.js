@@ -1855,7 +1855,7 @@ case 'emojimix': {
 		if (!emoji2) throw `Example : ${prefix + command} 😅+🤔`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(emoji1)}_${encodeURIComponent(emoji2)}`)
 		for (let res of anu.results) {
-		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftroli, { packname: global.botname, author: global.packname categories: res.tags })
+		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftroli, { packname: global.botname, author: global.packname, categories: res.tags })
 		    await fs.unlinkSync(encmedia)
 		}
 	    }
@@ -1864,7 +1864,7 @@ case 'emojimix': {
 	    if (!text) throw `Example : ${prefix + command} 😅`
 		let anu = await fetchJson(`https://tenor.googleapis.com/v2/featured?key=AIzaSyAyimkuYQYF_FXVALexPuGQctUWRURdCYQ&contentfilter=high&media_filter=png_transparent&component=proactive&collection=emoji_kitchen_v5&q=${encodeURIComponent(text)}`)
 		for (let res of anu.results) {
-		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftok, { packname: global.botname, author: global.packname categories: res.tags })
+		    let encmedia = await arielspkece.sendImageAsSticker(m.chat, res.url, ftok, { packname: global.botname, author: global.packname, categories: res.tags })
 		    await fs.unlinkSync(encmedia)
 		}
 	    }
