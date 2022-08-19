@@ -72,6 +72,12 @@ return `✘ *I N F O - B O T*
 ⌕ stickermeme
 ⌕ emojimix
 ⌕ emojimix2
+⌕ doge
+⌕ gura
+⌕ bucin
+⌕ patrik
+⌕ attp
+⌕ terjemahan
 
 ✘ *N U L I S - M E N U*
 
