@@ -135,8 +135,6 @@ return `✘ *I N F O - B O T*
 
 ✘ *A N I M E - M E N U*
 
-⌕ manga
-⌕ otakudesu
 ⌕ megumin
 ⌕ waifu
 ⌕ neko
@@ -147,31 +145,31 @@ return `✘ *I N F O - B O T*
 
 ✘ *KISAH - M E N U*
 
-⌕ ${prefix}kisahnabi adam
-⌕ ${prefix}kisahnabi ayyub
-⌕ ${prefix}kisahnabi daud
-⌕ ${prefix}kisahnabi dzulkifli
-⌕ ${prefix}kisahnabi harun
-⌕ ${prefix}kisahnabi hud
-⌕ ${prefix}kisahnabi ibrahim
-⌕ ${prefix}kisahnabi idris
-⌕ ${prefix}kisahnabi ilyas
-⌕ ${prefix}kisahnabi ilyasa
-⌕ ${prefix}kisahnabi isa
-⌕ ${prefix}kisahnabi ishaq
-⌕ ${prefix}kisahnabi ismail
-⌕ ${prefix}kisahnabi luth
-⌕ ${prefix}kisahnabi muhammad
-⌕ ${prefix}kisahnabi musa
-⌕ ${prefix}kisahnabi nuh
-⌕ ${prefix}kisahnabi sholeh
-⌕ ${prefix}kisahnabi sulaiman
-⌕ ${prefix}kisahnabi syuaib
-⌕ ${prefix}kisahnabi yahya
-⌕ ${prefix}kisahnabi yaqub
-⌕ ${prefix}kisahnabi yunus
-⌕ ${prefix}kisahnabi yusuf
-⌕ ${prefix}kisahnabi zakariya
+⌕ kisahnabi adam
+⌕ kisahnabi ayyub
+⌕ kisahnabi daud
+⌕ kisahnabi dzulkifli
+⌕ kisahnabi harun
+⌕ kisahnabi hud
+⌕ kisahnabi ibrahim
+⌕ kisahnabi idris
+⌕ kisahnabi ilyas
+⌕ kisahnabi ilyasa
+⌕ kisahnabi isa
+⌕ kisahnabi ishaq
+⌕ kisahnabi ismail
+⌕ kisahnabi luth
+⌕ kisahnabi muhammad
+⌕ kisahnabi musa
+⌕ kisahnabi nuh
+⌕ kisahnabi sholeh
+⌕ kisahnabi sulaiman
+⌕ kisahnabi syuaib
+⌕ kisahnabi yahya
+⌕ kisahnabi yaqub
+⌕ kisahnabi yunus
+⌕ kisahnabi yusuf
+⌕ kisahnabi zakariya
 
 ✘ *D O W N L O A D - M E N U*
 
