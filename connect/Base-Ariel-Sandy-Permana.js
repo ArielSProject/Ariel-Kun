@@ -2633,6 +2633,16 @@ arielspkece.sendMessage(m.chat, { image: { url : './connect/image/thumb.jpg' }, 
 }
 break
 case 'menu': {
+const khus = `Hallo Kak *${m.pushName}* ${ucapanWaktu}
+
+-----------[ INFO ]-----------
+Buat Kalian Yang Tidak Muncul Button/Tombol Silahkan Ketik #menu2
+
+Dan Jika Kalian Ingin Memakai Tombol Silahkan Ketik #arielsp2 (Khusus Orang Yang Support Button)`
+arielspkece.sendMessage(m.chat, { image: { url : './connect/image/thumb.jpg' }, caption: khus }, { quoted: ftroli } )
+}
+break
+case 'arielsp2': {
 const arielkece = `Hii Kak *${m.pushName}* ${ucapanWaktu}
 
 Silahkan Klick Button Dibawah Untuk Melihat Beberapa Fitur Yang Tersedia`
