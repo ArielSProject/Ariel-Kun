@@ -2462,7 +2462,7 @@ case 'play': case 'ytplay':{
     }
 
   break
-case 'arielsp': {
+case 'menu2': {
 const allmenuea = `✘ *I N F O - B O T*
 
 ⌕ #Nama Owner : *Ariel SP*
